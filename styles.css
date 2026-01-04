@@ -737,10 +737,6 @@ a:focus {
 
 /* High contrast mode support */
 @media (prefers-contrast: high) {
-  .hero-overlay {
-    background: rgba(0, 0, 0, 0.6);
-  }
-
   .nav-link::after {
     background: #000;
   }
